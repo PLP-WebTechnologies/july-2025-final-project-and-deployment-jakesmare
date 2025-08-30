@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #1E90FF;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #f4f4f4;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #1E90FF;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.services {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.service-card {
+  background: #1E90FF;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.slider {
+  max-width: 800px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slide.active {
+  display: block;
+}
+
+.contact {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #1E90FF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
