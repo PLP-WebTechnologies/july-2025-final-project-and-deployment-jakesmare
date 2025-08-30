@@ -1,0 +1,36 @@
+Project Documentation – MareTech Website
+1. Project Overview
+
+The MareTech Website is a three-page responsive website designed for MareTech, a technology company based in Nairobi. The website demonstrates skills in HTML5, CSS3, JavaScript, and deployment.
+
+The key pages include:
+
+Home Page: Introduction to MareTech with a navigation bar and image slider.
+
+About Page: Information about the company, mission, and services.
+
+Contact Page: Contact form with validation, contact details, and a map placeholder.
+
+2. Objectives
+
+Build a multipage responsive website using modern web standards.
+
+Ensure semantic HTML structure.
+
+Use CSS for layout, colors, responsiveness, and animations.
+
+Implement JavaScript for interactivity (image slider, form validation).
+
+Deploy the website using Vercel
+
+3. Tools & Technologies
+
+Frontend: HTML, CSS and JavaScript
+
+Version Control: GitHub
+
+Deployment: Vercel
+
+IDE/Editor: VS Code
+
+Browsers Tested On: Brave Browser nd Safari
